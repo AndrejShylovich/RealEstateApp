@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Signup from './components/signup/Signup';
 import Login from './components/login/Login';
+import Hero from './components/hero/Hero';
 
 import { useSelector } from 'react-redux'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
@@ -24,6 +25,7 @@ function App() {
         <Route path='/' element={
           <>
             <Navbar />
+            <Hero />
             App
             <Footer />
           </>
